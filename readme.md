@@ -19,7 +19,9 @@ It uses a trackbar, the search radius is actually 15 + 5*`trackbar_value`, this 
 ### Resulting images
 
 Before
+
 <img src="images/blemish.png" width="400" height="auto">
 
 After
+
 <img src="images/after.PNG" width="400" height="auto">

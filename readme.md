@@ -14,7 +14,7 @@ It uses a trackbar, the search radius is actually 15 + 5*`trackbar_value`, this 
 1. It obtains a large slice of the neighborhood -> `2xradius left`, `2xradius right`, `2xradius up`, `2xradius down` from center of mouse click
 2. Convert this neighborhood to grayscale(feeding it a grayscale image makes the edge detection faster).
 3. A `radius x radius` grayscale image if fed to a scoring system. The `best_score` has the smoothest surface(the least amount of laplacian edges detected). The scoring system is the sum of modified laplacian.
-4. We replace the `radius x radius` patch with the best neighbor using `seemlessCloning`
+4. We replace the `radius x radius` patch with the best neighbor using `seamlessCloning`
 
 ### Resulting images
 
